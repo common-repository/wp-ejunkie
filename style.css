@@ -1,0 +1,230 @@
+#icon-options-wpejunkie{
+	background:url(images/ejunkie_logo_icon.gif) no-repeat;
+}
+
+/* 2 columns wpejunkie admin area */
+.col-container {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+.col-left {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.col-right {
+	float: left;
+	clear: right;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	width: 40%;
+}
+
+.padding { padding:10px;	overflow:hidden; }
+
+/*------------------------------------------------------------------------------------------*/
+/* Main Structure Styles */
+
+div#wpejunkie-col-left { float:left; margin:20px 10px 0 0;width: 800px; }
+#wpejunkie-col-left label { margin:0 12px 0 0; }
+/* Main Structure Styles */
+
+ul#wpejunkie-sortables li { list-style-type:none; margin:0 0px 20px 0; position:relative; }
+ul#wpejunkie-sortables { list-style-type:none; }
+
+div.box-mid-head {
+	background:transparent url('images/flo-head.jpg') repeat-x scroll 0 0;
+	border:1px solid #DBDBDB;
+	cursor:move;
+	height:27px;
+	text-align:right;
+	width:100%;
+}
+div.box-mid-head h2 {
+	color:#21759B;
+	float:left;
+	font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-size:14px;
+	font-style:normal;
+	font-weight:normal;
+	height:24px;
+	line-height:20px;
+	margin:0;
+	padding:3px 0 0 10px;
+	text-align:left;
+}
+div.box-mid-head a:hover { border:medium none; }
+div.box-mid-head input { border:1px solid #CCCCCC; }
+div.box-mid-body { background:#F8F8F8 url('images/white-pix.jpg') repeat-x center top; border:1px solid #dbdbdb; border-top:0 none; display:table; width:100%; }
+div.box-mid-body h3 { display:block; font-size:16px; font-weight:bold; margin:8px 0; }
+div#wpejunkie-col-right { clear:none; float:left; margin:20px 0 0; position:absolute; right:1.3%; width:280px; }
+div.box-right { float:left; margin-bottom:20px; }
+div.box-right-head { background:transparent url('images/flo-head.jpg') repeat-x 0 0; border:1px solid #DBDBDB; float:left; height:27px; width:275px; }
+div.box-right-head h3 {
+	color:#21759B;
+	float:left;
+	font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-size:14px;
+	font-style:normal;
+	font-weight:normal;
+	height:24px;
+	line-height:20px;
+	margin:0;
+	padding:3px 0 0 10px;
+	text-align:left;
+}
+div.box-right-body { background:#F8F8F8 url('images/white-pix.jpg') repeat-x center top; border:1px solid #dbdbdb; border-top:0 none; float:left; width:275px; }
+div.box-right-body h4 { display:block; font-size:16px; font-weight:bold; margin:8px 0; }
+div.box-right-body ul { list-style-image:none; list-style-position:inside; list-style-type:none; margin:0; }
+div.box-right-body ul li strong { color:#454545; font-weight:bold; }
+/* End Main Structure Styles */
+/*------------------------------------------------------------------------------------------*/
+/* Donations Section Styles */
+.wpejunkiedonation-box p {
+	padding:0;
+	margin:-4px 0 15px 0;
+	line-height:22px;
+}
+.wpejunkiedonation-box label {
+	font-weight:bold;
+	color:#333;
+	font-size:10px;
+}
+.wpejunkiedonation-box span {
+	font-weight:normal;
+}
+.wpejunkiedonation-box .payment {
+	border-color:#bbb;
+	color:#464646;
+	width:160px;
+	display:block;
+	height:28px;
+	margin:45px auto 0;
+	padding-bottom:2px;
+}
+.wpejunkiedonation-box .payment:hover {
+	border-color:#666;
+	color:#000;
+}
+#no-sponsors {
+	position:relative;
+	top:-70px;
+}
+/* End Donations Section Styles */
+/* Top Contributors Section */
+ul.sexy-contributors { counter-reset:cnt; list-style-type:none; margin:0; }
+ul.sexy-contributors li {
+	display:block;
+	counter-increment:cnt;
+	line-height:10px;
+	margin:10px 0 32px 0;
+}
+ul.sexy-contributors li.last { margin-bottom:10px; }
+ul.sexy-contributors li p { line-height:10px; margin:0; text-indent:5px; }
+ul.sexy-contributors li:before {
+	color:#D5D5D5;
+	content:counter(cnt, decimal-leading-zero);
+	font-family:"Courier New",monospace;
+	font-size:26px;
+	font-weight:bold;
+	width:20px;
+}
+ul.sexy-contributors li:hover:before { color:#21759B; }
+ul.sexy-contributors li a {
+	color:#57717F;
+	display:block;
+	margin:-14px 0 0 33px;
+	text-decoration:none;
+}
+ul.sexy-contributors li:hover a { color:#21759B; font-weight:bold; }
+/* End Top Contributors Section */
+/*------------------------------------------------------------------------------------------*/
+/* Useful Links Section */
+div.box-right-body ul.infolinks { list-style-type:none; list-style-position:outside; }
+div.box-right-body ul.infolinks li {
+	background:url('images/custom-fugue-sprite.png') no-repeat 0 -2367px;
+	text-indent:22px;
+	line-height:15px;
+	margin-bottom:12px;
+	font-size:11px;
+}
+div.box-right-body ul.infolinks li a { text-decoration:none; }
+/* End Useful Links Section */
+/*------------------------------------------------------------------------------------------*/
+/* Custom Fugue Sprite Styles */
+.fugue { background: url('images/custom-fugue-sprite.png') no-repeat; height:16px; padding-left:22px; }
+.fugue.f-info { background-position:0 2px; margin:2px 10px 0 0; }
+.fugue.f-warn { background-position:0 -83px; margin:2px 10px 0 0; }
+.fugue.f-success { background-position:0 -178px; margin:2px 10px 0 0; }
+.fugue.f-question { background-position:0 -295px; margin:2px 10px 0 0; width:16px; border:0; padding:0; display:inline-block;}
+.fugue.f-info-frame { background-position:0 -411px; height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-error { background-position:0 -525px; margin:2px 10px 0 0; }
+.fugue.f-delete { background-position:0 -640px; }
+.fugue.f-globe-plus { background-position:0 -755px; height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-leaf-pencil { background-position:0 -871px;   height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-wrench { background-position:0 -987px;  height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-money { background-position:0 -1102px;  height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px;  }
+.fugue.f-medal { background-position:0 -1217px;  height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px;  }
+.fugue.f-pallette { background-position:0 -1332px; height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-plugin { background-position:0 -1447px; margin:5px 0 20px 0; padding-left:22px; display:block; clear:both; }
+.fugue.f-megaphone { background-position:0 -1564px;   height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-flags { background-position:0 -1680px;   height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-image { background-position:0 -1794px;   height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-footer { background-position:0 -1909px;   height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-folder { background-position:0 -2020px; }
+.fugue.f-doc-image { background-position:0 -2137px; }
+.fugue.f-doc-code { background-position:0 -2253px; }
+.fugue.f-link-small { background-position:0 -2367px; }
+.fugue.f-globe-small { background-position:0 -2475px; }
+.fugue.f-star-small { background-position:0 -2585px; }
+/* End Custom Fugue Sprite Styles */
+
+/* Table Sorting */
+/*#tablewrapper {width:980px; margin:0 auto}*/
+#tableheader {height:55px}
+.search {float:left; padding:6px; border:1px solid #c6d5e1; background:#fff}
+#tableheader select {float:left; font-size:12px; width:125px; padding:2px 4px 4px}
+#tableheader input {float:left; font-size:12px; width:225px; padding:2px 4px 4px; margin-left:4px}
+.details {float:right; padding-top:12px}
+.details div {float:left; margin-left:15px; font-size:12px}
+/*.tinytable {width:100%; border-left:1px solid #c6d5e1; border-top:1px solid #c6d5e1; border-bottom:none}*/
+.tinytable {width:100%; border-left:1px solid  #c6d5e1; border-top:1px solid #c6d5e1; border-bottom:none;  line-height:normal; border-collapse:collapse;}
+.tinytable th {background:url(images/header-bg.gif); text-align:left; color:#cfdce7; border:1px solid #fff; border-right:none}
+.tinytable th h3 {font-size:10px; padding:6px 8px 8px; margin:0;}
+.tinytable td {padding:4px 6px 6px; border-bottom:1px solid #c6d5e1; border-right:1px solid #c6d5e1;}
+.tinytable .head h3 {background:url(images/sort.gif) 7px center no-repeat; cursor:pointer; padding-left:18px;  margin:0;}
+.tinytable .desc, .sortable .asc {background:url(images/header-selected-bg.gif)}
+.tinytable .desc h3 {background:url(images/desc.gif) 7px center no-repeat; cursor:pointer; padding-left:18px;  margin:0;}
+.tinytable .asc h3 {background:url(images/asc.gif) 7px  center no-repeat; cursor:pointer; padding-left:18px;  margin:0;}
+.tinytable .head:hover, .tinytable .desc:hover, .tinytable .asc:hover {color:#fff}
+.tinytable .evenrow td {background:#fff}
+.tinytable .oddrow td {background:#ecf2f6}
+.tinytable td.evenselected {background:#ecf2f6}
+.tinytable td.oddselected {background:#dce6ee}
+.tinytable tfoot {background:#fff; font-weight:bold}
+.tinytable tfoot td {padding:6px 8px 8px}
+#tablefooter {height:15px; margin-top:20px}
+#tablenav {float:left}
+#tablenav img {cursor:pointer}
+#tablenav div {float:left; margin-right:15px}
+#tablelocation {float:right; font-size:12px}
+#tablelocation select {margin-right:3px}
+#tablelocation div {float:left; margin-left:15px}
+.page {margin-top:2px;}
+#selectedrow td {background: #FFC}
+
+div .row-actions{
+    font-size:10px !important;
+}
+
+/* Misc Classes */
+.red_text {
+	color:#F00;
+}
+.clear_both{
+	clear:both;
+}
